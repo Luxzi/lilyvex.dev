@@ -1,6 +1,6 @@
 <template>
   <NuxtLink :to="link">
-    <Icon :name="icon" style="vertical-align: middle;" :alt="alt" size="2em"/>
+    <Icon :name="icon" style="vertical-align: middle;" :alt="alt" :size="size"/>
   </NuxtLink>
 </template>
 
@@ -17,7 +17,11 @@
     link: {
       type: String,
       default: ''
-    }
+    },
+    size: {
+      type: String,
+      default: '2em'
+    },
   })
 </script>
 

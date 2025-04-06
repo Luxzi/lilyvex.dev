@@ -33,10 +33,25 @@
           been interested in technology—computers specifically—and how it
           can be used to improve the lives of others.<br><br>
 
-          Trans rights are human rights 🏳️‍⚧️<br><br><br><br>
+          Trans rights are human rights 🏳️‍⚧️<br><br>
         </p>
+        <hr>
+        <br>
+
         <div class="flex gap-10 justify-center">
           <Social icon="cib:github" link="https://github.com/Luxzi" alt="GitHub" />
+          <Social icon="mdi:coffee" link="https://ko-fi.com/luxzi" alt="Kofi" size="2.35em" />
+        </div><br>
+        
+        <hr>
+        <br>
+
+        <div class="flex justify-center">
+          <h2 class="font-bold text-2xl mb-4">Cryptowallets</h2>
+        </div>
+
+        <div class="flex justify-center">
+          <Wallet name="Monero" icon="cib:monero" address="87TuD9iKR9XdMjWyoMTZDqjLJWsu8bQqZUxM66EHhnR1JbuTUUcugApYQbnVAj7nhBDmcPr22h2kzHSfjLRpN13eLi8bPaR" />
         </div>
       </div>
     </div>
