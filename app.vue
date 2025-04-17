@@ -39,8 +39,10 @@
         <br>
 
         <div class="flex gap-10 justify-center">
-          <Social icon="cib:github" link="https://github.com/Luxzi" alt="GitHub" />
-          <Social icon="mdi:coffee" link="https://ko-fi.com/luxzi" alt="Kofi" size="2.35em" />
+          <Social icon="mdi:github" link="https://github.com/Luxzi" alt="GitHub" />
+          <Social icon="simple-icons:codeberg" link="https://codeberg.org/luxzi" alt="Codeberg" size="1.8em"/>
+          <Social icon="mdi:git" link="https://code.lilyvex.dev/lily" alt="Private Forgejo Instance"/>
+          <Social icon="mdi:coffee" link="https://ko-fi.com/luxzi" alt="Kofi" />
         </div><br>
         
         <hr>
@@ -69,7 +71,8 @@ Button {
 
 .rel-date {
   font-family: "Kode Mono", monospace;
-  background-color: rgb(70,70,70);
+  color: var(--color-background);
+  background-color: var(--color-foreground);
   padding: 4px;
   border-radius: 10px;
 }
