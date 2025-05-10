@@ -57,6 +57,7 @@
         </div>
       </div>
     </div>
+    <a rel="me" href="https://furry.engineer/@lily">Mastodon</a>
   </UApp>
 </template>
 
