@@ -1,3 +1,9 @@
 {
-  "m.homeserver": { "base_url": "https://m.lilyvex.dev" }
+  "m.homeserver": { "base_url": "https://m.lilyvex.dev" },
+  "org.matrix.msc4143.rtc_foci": [
+        {
+           "type": "livekit",
+           "livekit_service_url": "https://lk.lilyvex.dev"
+        }
+     ]
 }
